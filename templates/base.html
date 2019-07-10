@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+  {% assets "js_all" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+  {% endassets %}
+
+  {% assets "css_all" %}
+    <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}"></link>
+  {% endassets %}
+</head>
+<body>
+  {% block content %}{% endblock %}
+</body>
+</html>
