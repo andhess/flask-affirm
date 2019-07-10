@@ -1,0 +1,43 @@
+body {
+  width: 90%;
+  margin: auto;
+  font-family: Helvetica, sans-serif;
+}
+.product-section {
+  display: flex;
+}
+.product-display {
+  width: 40%;
+  text-align: center;
+}
+.product-display img {
+  max-width: 250px;
+}
+.product-info {
+  width: 60%;
+  padding-top: 30px;
+}
+.product-info h2 {
+  font-size: 36px;
+}
+.product-info .pricing-info {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 5px;
+}
+.product-info .affirm-as-low-as {
+  margin: 0 0 30px;
+  font-size: 14px;
+}
+.btn {
+  height: 40px;
+  border-radius: 5px;
+  min-width: 140px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.btn.btn-primary {
+  background-color: #4287f5;
+  color: white;
+  font-weight: 700;
+}
