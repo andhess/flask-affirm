@@ -2,6 +2,59 @@
 
 {% block content %}
 <div class="checkout-section">
-  <h1>Checkout</h1>
-</div>
+  <h2>Checkout</h2>
+  <div class="cart-info-container">
+    <h3>Order Details</h3>
+    <div class="cart-information">
+      <div class="cart-img">
+        <img src="https://demo.vuestorefront.io/img/600/744/resize/m/g/mg02-bk-0.jpg"/>
+      </div>
+      <div class="cart-details">
+        <p class="product">Digital Watch</p>
+        <p class="price">$500 (includes tax and shipping)</p>
+        <p class="quantity">1 Unit</p>
+      </div>
+    </div>
+  </div>
+  <div class="information-container">
+    <h3>Customer Information</h3>
+      <div class="info-fields">
+      <div class="info-field">
+        <label for="name" >Full Name</label>
+        <input id="name" type="textfield" name="name">
+      </div>
+      <div class="info-field">
+        <label for="email">Email</label>
+        <input id="email" type="textfield" name="email">
+      </div>
+      <div class="info-field">
+        <label for="phone">Phone</label>
+        <input id="phone" type="textfield" name="phone">
+      </div>
+      <div class="info-field">
+        <label for="address1">Address 1</label>
+        <input id="address1" type="textfield" name="address1">
+      </div>
+      <div class="info-field">
+        <label for="address2">Address 2</label>
+        <input id="address2" type="textfield" name="address2">
+      </div>
+      <div class="info-field">
+        <label for="city">City</label>
+        <input id="city" type="textfield" name="city">
+      </div>
+      <div class="info-field">
+        <label for="state">State</label>
+        <input id="state" type="textfield" name="state">
+      </div>
+      <div class="info-field">
+        <label for="zip">Zip</label>
+        <input id="zip" type="textfield" name="zip">
+      </div>
+    </div>
+  </div>
+  <div class="payment-container">
+    <h3>Payment</h3>
+    <button class="btn btn-primary affirm-pay">Buy with Affirm</button>
+  </div>
 {% endblock %}
