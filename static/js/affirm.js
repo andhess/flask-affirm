@@ -1,6 +1,6 @@
 // Affirm JS
 _affirm_config = {
-  public_api_key:  "BIV0LNM4SEMKOVF5",
+  public_api_key:  "",
   script:          "https://cdn1-sandbox.affirm.com/js/v2/affirm.js"
 };
 
