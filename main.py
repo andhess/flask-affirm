@@ -16,6 +16,8 @@ assets.register('js_all', js)
 css = Bundle('main.less', filters='less', output='main.css')
 assets.register('css_all', css)
 
+img = Bundle('img/*')
+assets.register('img_all', img)
 
 # home page and product page
 @app.route('/')
